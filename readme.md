@@ -1,24 +1,32 @@
-# Running locally
+# Quickly create best-practice Node.js apps for Heroku
 
 ```
-$ heroku local
-```
-
-# Deploying
-
-```
+$ heroku plugins:install heroku-cli-node
+$ heroku node:write myapp && cd myapp
 $ heroku create
 $ git push heroku master
-$ heroku open # shows 'unnamed'
-
-$ heroku config:set APP_NAME=MyName
-$ heroku open # shows 'MyName'
+$ heroku open
 ```
 
-# Linting
+## Why?
+
+A basic node app still takes a lot of boilerplate:
+
+- `package.json`, configured for an app instead of a module
+- `.env` to inject environment variables locally
+- `yarn.lock` to lock your dependencies
+- `readme.md` to describe what the app does
+- `.gitignore` so you can keep node modules out of git
+- at least one file in `/bin` to provide an executable for your app
+- a [standard](http://standardjs.com/) linter to keep you on track
+- and finally a `Procfile` to list your app's process types
+
+## Local development
 
 ```
-$ yarn run lint
+$ yarn
+$ heroku local
+$ open http://localhost:5000
 ```
 
-(or *npm run lint* if you're using npm)
+(or `npm install` if you prefer npm to yarn)

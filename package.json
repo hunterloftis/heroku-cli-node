@@ -1,15 +1,22 @@
 {
-  "name": "hello-world",
+  "name": "heroku-cli-node",
+  "topic": "node",
+  "description": "utilities for working with Node.js programs",
   "version": "1.0.0",
-  "engines": {
-    "node": "6.x"
-  },
+  "author": "Hunter Loftis @hunterloftis",
   "scripts": {
-    "lint": "standard '**/*.js' '**/*.jsx' 'bin/*'"
+    "lint": "standard"
   },
   "main": "app.js",
   "license": "MIT",
   "devDependencies": {
     "standard": "^8.6.0"
+  },
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "dependencies": {
+    "marked": "^0.3.6",
+    "marked-terminal": "^2.0.0"
   }
 }
