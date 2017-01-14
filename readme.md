@@ -2,10 +2,7 @@
 
 ```
 $ heroku plugins:install heroku-cli-node
-$ heroku node:write myapp && cd myapp
-$ heroku create
-$ git push heroku master
-$ heroku open
+$ heroku node:write myapp
 ```
 
 ## Why?
