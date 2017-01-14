@@ -18,4 +18,4 @@ A solid node app still takes a lot of boilerplate:
 - a [standard](http://standardjs.com/) linter to keep you on track
 - and finally a `Procfile` to list your app's process types
 
-...and I like to build solid apps, but I'm lazy.
+...and I like to build solid apps, but I'm *also lazy.*
