@@ -8,5 +8,6 @@ exports.topic = {
 }
 
 exports.commands = [
+  require('./commands/index.js')(pkg),
   require('./commands/write.js')(pkg.topic)
 ]
