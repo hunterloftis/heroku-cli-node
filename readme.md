@@ -14,6 +14,7 @@ A solid node app still takes a lot of boilerplate:
 - `yarn.lock` to lock your dependencies
 - `readme.md` to describe what the app does
 - `.gitignore` so you can keep node modules out of git
+- `app.json` to support Pipelines, Release Apps, CI, and the 'Deploy to Heroku' Button
 - at least one file in `/bin` to provide an executable for your app
 - a [standard](http://standardjs.com/) linter to keep you on track
 - a mechanism for identifying [security vulnerabilities](https://github.com/nodesecurity/nsp)
