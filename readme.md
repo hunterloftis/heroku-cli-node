@@ -2,7 +2,7 @@
 
 ```
 $ heroku plugins:install heroku-cli-node
-$ heroku node:write myapp
+$ heroku node:generate myapp
 ```
 
 ## Why?

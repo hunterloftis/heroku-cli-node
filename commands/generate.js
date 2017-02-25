@@ -14,15 +14,15 @@ module.exports = (topic) => {
 
   return {
     topic: topic,
-    command: 'write',
+    command: 'generate',
     args: [{ name: 'directory' }],
-    description: 'writes a basic node app with a "web" process',
+    description: 'generates a basic node app with a "web" process',
     help: 'DIRECTORY will be created, or pass . to use the current directory',
-    run: write
+    run: generate
   }
 }
 
-function write (context) {
+function generate (context) {
   const dir = path.join(context.cwd, context.args.directory)
   const env = path.join(dir, '.env')
   const relative = path.relative(context.cwd, dir)
