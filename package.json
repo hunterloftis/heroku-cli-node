@@ -2,7 +2,7 @@
   "name": "heroku-cli-node",
   "topic": "node",
   "description": "utilities for working with Node.js programs",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Hunter Loftis @hunterloftis",
   "scripts": {
     "lint": "standard"
