@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "standard"
   },
-  "main": "app.js",
+  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "standard": "^8.6.0"
