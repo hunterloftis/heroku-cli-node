@@ -2,12 +2,12 @@
   "name": "heroku-cli-node",
   "topic": "node",
   "description": "utilities for working with Node.js programs",
-  "version": "1.2.0",
+  "version": "2.1.0",
   "author": "Hunter Loftis @hunterloftis",
   "scripts": {
     "lint": "standard"
   },
-  "main": "app.js",
+  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "standard": "^8.6.0"
